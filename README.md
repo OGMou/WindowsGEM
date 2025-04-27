@@ -33,7 +33,7 @@
 * **Toques de Personalidad Nativos:** Integración de ajustes finos del **registro** para mejorar la usabilidad y activación de opciones y características útiles por defecto.
 ---
 #### Consulta el archivo [CHANGELOG](CHANGELOG.md) 📃 para ver los cambios detallados en cada versión.
-#### Consulta la sección [Releases](link-a-tu-seccion-de-releases) 💾 para encontrar las últimas versiones
+#### Consulta la sección [Releases](https://github.com/OGMou/WindowsGEM/releases) 💾 para encontrar las últimas versiones
 ---
 ### Instalación 💻
 1.  Descarga el archivo (`.iso`) o el (`.xml`) y compila el iso tú mismo/misma.
