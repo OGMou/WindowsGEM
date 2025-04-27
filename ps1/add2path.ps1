@@ -28,8 +28,8 @@ $rutasParaAnadir = @(
     "C:\Ruta\Ejemplo\Numero1",
     "D:\OtraCarpeta\Importante",
     "C:\Utils\ScriptsPersonalizados"
+	# << Añade más rutas aquí si lo necesitas, una por línea con comillas y coma >>
 )
-# << Añade más rutas aquí si lo necesitas, una por línea con comillas y coma >>
 
 # Variables internas del script
 $regKeySystemPath = "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"
