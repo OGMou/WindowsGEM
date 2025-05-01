@@ -1,0 +1,51 @@
+// --- Inicio de ARCHIVO.rc ---
+// Plantilla para DLL SOLO Recursos
+
+// ----------------------------------------------------------
+// Apartado 1: Definición de IDs numéricos únicos para cada icono
+//             Empezamos desde 1 como ejemplo.
+// ----------------------------------------------------------
+#define IDI_ICON_01    1   // ID para el primer icono
+#define IDI_ICON_02    2   // ID para el segundo icono
+#define IDI_ICON_03    3   // etc.
+#define IDI_ICON_04    4
+#define IDI_ICON_05    5
+#define IDI_ICON_06    6
+#define IDI_ICON_07    7
+#define IDI_ICON_08    8
+#define IDI_ICON_09    9
+#define IDI_ICON_10   10
+#define IDI_ICON_11   11
+#define IDI_ICON_12   12
+#define IDI_ICON_13   13
+#define IDI_ICON_14   14
+#define IDI_ICON_15   15
+#define IDI_ICON_16   16
+#define IDI_ICON_17   17
+#define IDI_ICON_18   18   // ID para el icono número 18
+
+// ----------------------------------------------------------
+// Apartado 2: Asociación de cada ID con su archivo .ico
+//             ¡¡IMPORTANTE!! Reemplaza cada "placeholder_icono_XX.ico"
+//             con el nombre EXACTO de tu archivo .ico correspondiente.
+// ----------------------------------------------------------
+IDI_ICON_01     ICON    "placeholder_icono_01.ico"
+IDI_ICON_02     ICON    "placeholder_icono_02.ico"
+IDI_ICON_03     ICON    "placeholder_icono_03.ico"
+IDI_ICON_04     ICON    "placeholder_icono_04.ico"
+IDI_ICON_05     ICON    "placeholder_icono_05.ico"
+IDI_ICON_06     ICON    "placeholder_icono_06.ico"
+IDI_ICON_07     ICON    "placeholder_icono_07.ico"
+IDI_ICON_08     ICON    "placeholder_icono_08.ico"
+IDI_ICON_09     ICON    "placeholder_icono_09.ico"
+IDI_ICON_10     ICON    "placeholder_icono_10.ico"
+IDI_ICON_11     ICON    "placeholder_icono_11.ico"
+IDI_ICON_12     ICON    "placeholder_icono_12.ico"
+IDI_ICON_13     ICON    "placeholder_icono_13.ico"
+IDI_ICON_14     ICON    "placeholder_icono_14.ico"
+IDI_ICON_15     ICON    "placeholder_icono_15.ico"
+IDI_ICON_16     ICON    "placeholder_icono_16.ico"
+IDI_ICON_17     ICON    "placeholder_icono_17.ico"
+IDI_ICON_18     ICON    "placeholder_icono_18.ico"
+
+// --- Fin de ARCHIVO.rc ---
