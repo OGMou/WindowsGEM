@@ -12,10 +12,8 @@ Las rutas se añaden incluso si los directorios no existen físicamente en el mo
 de la ejecución del script.
 
 .NOTES
-Version: 1.0
 Author: OGMou❤️
 Fecha: 2025-04-27
-Requiere: Privilegios de Administrador para modificar variables de entorno del sistema.
 #>
 
 # ==============================================================================
