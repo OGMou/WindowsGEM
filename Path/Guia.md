@@ -29,3 +29,5 @@
     - Separador estándar utilizado en la variable PATH de Windows para distinguir entre diferentes directorios en la lista
   - `C:\PATH\TO\ADD`
     - Ruta que quieres añadir al `PATH`
+---
+###### Actualizado a 02/05/2025
