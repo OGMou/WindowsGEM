@@ -1,0 +1,376 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; Archivo .REG para definir los ProgIDs de FFplay y Notepad++
+; Utiliza comandos PowerShell para la ejecución de FFplay.
+; Utiliza la ruta absoluta en la llamada DIRECTA para Notepad++.
+; Incluye capacidades + listas completas de asociaciones de archivos
+; Necesita de DefaultAssociations.xml + Dism para establecer los valores predeterminados reales.
+; Verifica la ruta absoluta de Notepad++ antes de aplicarlo.
+; Utiliza el PATH para ejecutar ffplay.exe desde powershell.
+; Author: OGMou❤️
+; Fecha: 2025-05-02
+; ============================================================
+
+; --- 1. ProgID Definitions ---
+; Defines how applications are executed and their basic properties.
+
+; --- FFplay Video ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile]
+@="Video File (FFplay)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\DefaultIcon]
+@="%SystemRoot%\\System32\\icons_VS.dll,-15"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\shell\open]
+@="Open with FFplay (Video)"
+
+; Reverted to PowerShell command for FFplay to show Write-Host messages
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\shell\open\command]
+@="\"powershell.exe\" -NoProfile -Command \"& { Write-Host \\\"Press [SPACE]/[P] to STOP/PLAY`nPress [<-]/[->]   to REWIND/SKIP 5 Sec`nPress [F]         to Full Screen`nPress [Q]         to EXIT\\\" -ForegroundColor DarkGreen; & 'ffplay.exe' -hide_banner -seek_interval 5 -x 1024 -y 576 '%1' }\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\Application]
+"ApplicationName"="FFplay (Video)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-15"
+"AppUserModelID"="Gyan.FFplay.Video"
+
+; --- FFplay Audio ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile]
+@="Audio File (FFplay)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\DefaultIcon]
+@="%SystemRoot%\\System32\\icons_VS.dll,-14"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\shell\open]
+@="Open with FFplay (Audio)"
+
+; Reverted to PowerShell command for FFplay to show Write-Host messages
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\shell\open\command]
+@="\"powershell.exe\" -NoProfile -Command \"& { Write-Host \\\"Press [SPACE]/[P] to STOP/PLAY`nPress [<-]/[->]   to REWIND/SKIP 5 Sec`nPress [F]         to Full Screen`nPress [Q]         to EXIT\\\" -ForegroundColor DarkGreen; & 'ffplay.exe' -hide_banner -seek_interval 5 -x 640 -y 640 '%1' }\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\Application]
+"ApplicationName"="FFplay (Audio)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-14"
+"AppUserModelID"="Gyan.FFplay.Audio"
+
+; --- FFplay Image ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile]
+@="Image File (FFplay)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\DefaultIcon]
+@="%SystemRoot%\\System32\\icons_VS.dll,-13"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\shell\open]
+@="Open with FFplay (Image)"
+
+; Reverted to PowerShell command for FFplay to show Write-Host messages
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\shell\open\command]
+@="\"powershell.exe\" -NoProfile -Command \"& { Write-Host \\\"Press [F] to Full Screen`nPress [Q] to EXIT\\\" -ForegroundColor DarkGreen; & 'ffplay.exe' -hide_banner -seek_interval 5 -x 1024 -y 576 '%1' }\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\Application]
+"ApplicationName"="FFplay (Image)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-13"
+"AppUserModelID"="Gyan.FFplay.Image"
+
+; --- Notepad++ Document ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document]
+@="Document File (Notepad++)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\DefaultIcon]
+@="%SystemRoot%\\System32\\icons_VS.dll,-12"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\shell]
+@="open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\shell\open]
+@="Open with Notepad++"
+
+; Using Direct call with ABSOLUTE PATH for Notepad++
+; *** Confirm this command does not cause the "Open With" loop on your system! ***
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\shell\open\command]
+@="\"C:\\ProgramData\\npp\\notepad++.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\Application]
+"ApplicationName"="Notepad++"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-12"
+"AppUserModelID"="DonHo.Notepad++.Document"
+
+; --- 2. Register Applications (For "Open With" and Default Apps UI) ---
+; Registers the applications with Windows for UI visibility.
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"FFplay (Video)"="Software\\Classes\\FFplay.VideoFile\\Capabilities"
+"FFplay (Audio)"="Software\\Classes\\FFplay.AudioFile\\Capabilities"
+"FFplay (Image)"="Software\\Classes\\FFplay.ImageFile\\Capabilities"
+"Notepad++"="Software\\Classes\\Notepad++.Document\\Capabilities"
+
+; --- Capabilities Definitions with FULL FileAssociations lists ---
+; Describes application capabilities and associated file types (for UI).
+; Extensions are lowercase for consistency.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\Capabilities]
+"ApplicationName"="FFplay (Video)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-15"
+"ApplicationDescription"="Play video files using FFplay"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.VideoFile\Capabilities\FileAssociations]
+".3g2"="FFplay.VideoFile"
+".3gp"="FFplay.VideoFile"
+".3gp2"="FFplay.VideoFile"
+".3gpp"="FFplay.VideoFile"
+".asf"="FFplay.VideoFile"
+".asx"="FFplay.VideoFile"
+".avi"="FFplay.VideoFile"
+".dtcp-ip"="FFplay.VideoFile"
+".dvr-ms"="FFplay.VideoFile"
+".ivf"="FFplay.VideoFile"
+".m1v"="FFplay.VideoFile"
+".m2t"="FFplay.VideoFile"
+".m2ts"="FFplay.VideoFile"
+".m2v"="FFplay.VideoFile"
+".m4v"="FFplay.VideoFile"
+".mkv"="FFplay.VideoFile"
+".mod"="FFplay.VideoFile"
+".mov"="FFplay.VideoFile"
+".mp2v"="FFplay.VideoFile"
+".mp4"="FFplay.VideoFile"
+".mp4v"="FFplay.VideoFile"
+".mpa"="FFplay.VideoFile"
+".mpe"="FFplay.VideoFile"
+".mpeg"="FFplay.VideoFile"
+".mpg"="FFplay.VideoFile"
+".mpv2"="FFplay.VideoFile"
+".mts"="FFplay.VideoFile"
+".ogm"="FFplay.VideoFile"
+".ogv"="FFplay.VideoFile"
+".ogx"="FFplay.VideoFile"
+".tod"="FFplay.VideoFile"
+".ts"="FFplay.VideoFile"
+".tts"="FFplay.VideoFile"
+".uvu"="FFplay.VideoFile"
+".vob"="FFplay.VideoFile"
+".webm"="FFplay.VideoFile"
+".wm"="FFplay.VideoFile"
+".wmv"="FFplay.VideoFile"
+".wmx"="FFplay.VideoFile"
+".wvx"="FFplay.VideoFile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\Capabilities]
+"ApplicationName"="FFplay (Audio)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-14"
+"ApplicationDescription"="Play audio files using FFplay"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.AudioFile\Capabilities\FileAssociations]
+".aac"="FFplay.AudioFile"
+".ac3"="FFplay.AudioFile"
+".adt"="FFplay.AudioFile"
+".adts"="FFplay.AudioFile"
+".aif"="FFplay.AudioFile"
+".aifc"="FFplay.AudioFile"
+".aiff"="FFplay.AudioFile"
+".au"="FFplay.AudioFile"
+".ec3"="FFplay.AudioFile"
+".flac"="FFplay.AudioFile"
+".lpcm"="FFplay.AudioFile"
+".m3u"="FFplay.AudioFile"
+".m4a"="FFplay.AudioFile"
+".m4b"="FFplay.AudioFile"
+".m4p"="FFplay.AudioFile"
+".mid"="FFplay.AudioFile"
+".midi"="FFplay.AudioFile"
+".mka"="FFplay.AudioFile"
+".mp2"="FFplay.AudioFile"
+".mp3"="FFplay.AudioFile"
+".oga"="FFplay.AudioFile"
+".ogg"="FFplay.AudioFile"
+".opus"="FFplay.AudioFile"
+".rmi"="FFplay.AudioFile"
+".snd"="FFplay.AudioFile"
+".wav"="FFplay.AudioFile"
+".wax"="FFplay.AudioFile"
+".weba"="FFplay.AudioFile"
+".wma"="FFplay.AudioFile"
+".wpl"="FFplay.AudioFile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\Capabilities]
+"ApplicationName"="FFplay (Image)"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-13"
+"ApplicationDescription"="View image files using FFplay"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FFplay.ImageFile\Capabilities\FileAssociations]
+".3fr"="FFplay.ImageFile"
+".ari"="FFplay.ImageFile"
+".arw"="FFplay.ImageFile"
+".avci"="FFplay.ImageFile"
+".avcs"="FFplay.ImageFile"
+".avif"="FFplay.ImageFile"
+".avifs"="FFplay.ImageFile"
+".bay"="FFplay.ImageFile"
+".bmp"="FFplay.ImageFile"
+".cap"="FFplay.ImageFile"
+".cr2"="FFplay.ImageFile"
+".cr3"="FFplay.ImageFile"
+".crw"="FFplay.ImageFile"
+".dcr"="FFplay.ImageFile"
+".dcs"="FFplay.ImageFile"
+".dds"="FFplay.ImageFile"
+".dib"="FFplay.ImageFile"
+".dng"="FFplay.ImageFile"
+".drf"="FFplay.ImageFile"
+".eip"="FFplay.ImageFile"
+".emf"="FFplay.ImageFile"
+".erf"="FFplay.ImageFile"
+".fff"="FFplay.ImageFile"
+".gif"="FFplay.ImageFile"
+".heic"="FFplay.ImageFile"
+".heics"="FFplay.ImageFile"
+".heif"="FFplay.ImageFile"
+".heifs"="FFplay.ImageFile"
+".hif"="FFplay.ImageFile"
+".ico"="FFplay.ImageFile"
+".iiq"="FFplay.ImageFile"
+".jfif"="FFplay.ImageFile"
+".jpe"="FFplay.ImageFile"
+".jpeg"="FFplay.ImageFile"
+".jpg"="FFplay.ImageFile"
+".jxl"="FFplay.ImageFile"
+".jxr"="FFplay.ImageFile"
+".k25"="FFplay.ImageFile"
+".kdc"="FFplay.ImageFile"
+".mef"="FFplay.ImageFile"
+".mos"="FFplay.ImageFile"
+".mrw"="FFplay.ImageFile"
+".nef"="FFplay.ImageFile"
+".nrw"="FFplay.ImageFile"
+".orf"="FFplay.ImageFile"
+".ori"="FFplay.ImageFile"
+".pef"="FFplay.ImageFile"
+".png"="FFplay.ImageFile"
+".ptx"="FFplay.ImageFile"
+".pxn"="FFplay.ImageFile"
+".raf"="FFplay.ImageFile"
+".raw"="FFplay.ImageFile"
+".rle"="FFplay.ImageFile"
+".rw2"="FFplay.ImageFile"
+".rwl"="FFplay.ImageFile"
+".sr2"="FFplay.ImageFile"
+".srf"="FFplay.ImageFile"
+".srw"="FFplay.ImageFile"
+".tif"="FFplay.ImageFile"
+".tiff"="FFplay.ImageFile"
+".wdp"="FFplay.ImageFile"
+".webp"="FFplay.ImageFile"
+".wmf"="FFplay.ImageFile"
+".x3f"="FFplay.ImageFile"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\Capabilities]
+"ApplicationName"="Notepad++"
+"ApplicationIcon"="%SystemRoot%\\System32\\icons_VS.dll,-12"
+"ApplicationDescription"="Edit text and document files using Notepad++"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Notepad++.Document\Capabilities\FileAssociations]
+; Document extensions (lowercase)
+".docm"="Notepad++.Document"
+".docx"="Notepad++.Document"
+".dotm"="Notepad++.Document"
+".dotx"="Notepad++.Document"
+".ods"="Notepad++.Document"
+".odt"="Notepad++.Document"
+".rtf"="Notepad++.Document"
+".xlsb"="Notepad++.Document"
+".xlsm"="Notepad++.Document"
+".xlsx"="Notepad++.Document"
+".xltm"="Notepad++.Document"
+".xltx"="Notepad++.Document"
+; Text extensions (lowercase)
+".asm"="Notepad++.Document"
+".asmx"="Notepad++.Document"
+".aspx"="Notepad++.Document"
+".c"="Notepad++.Document"
+".cc"="Notepad++.Document"
+".cdxml"="Notepad++.Document"
+".cod"="Notepad++.Document"
+".cpp"="Notepad++.Document"
+".cppm"="Notepad++.Document"
+".cs"="Notepad++.Document"
+".csh"="Notepad++.Document"
+".cshader"="Notepad++.Document"
+".css"="Notepad++.Document"
+".csv"="Notepad++.Document"
+".cxx"="Notepad++.Document"
+".datasource"="Notepad++.Document"
+".def"="Notepad++.Document"
+".diz"="Notepad++.Document"
+".dsh"="Notepad++.Document"
+".dshader"="Notepad++.Document"
+".filters"="Notepad++.Document"
+".fx"="Notepad++.Document"
+".gitattributes"="Notepad++.Document"
+".gitignore"="Notepad++.Document"
+".gitmodules"="Notepad++.Document"
+".gsh"="Notepad++.Document"
+".gshader"="Notepad++.Document"
+".h"="Notepad++.Document"
+".hh"="Notepad++.Document"
+".hlsl"="Notepad++.Document"
+".hlsli"="Notepad++.Document"
+".hpp"="Notepad++.Document"
+".hsh"="Notepad++.Document"
+".hshader"="Notepad++.Document"
+".hta"="Notepad++.Document"
+".htm"="Notepad++.Document"
+".html"="Notepad++.Document"
+".hxx"="Notepad++.Document"
+".i"="Notepad++.Document"
+".idl"="Notepad++.Document"
+".inc"="Notepad++.Document"
+".ini"="Notepad++.Document"
+".inl"="Notepad++.Document"
+".ipp"="Notepad++.Document"
+".ixx"="Notepad++.Document"
+".java"="Notepad++.Document"
+".lst"="Notepad++.Document"
+".mak"="Notepad++.Document"
+".map"="Notepad++.Document"
+".mk"="Notepad++.Document"
+".natvis"="Notepad++.Document"
+".nvr"="Notepad++.Document"
+".odh"="Notepad++.Document"
+".odl"="Notepad++.Document"
+".php3"="Notepad++.Document"
+".pl"="Notepad++.Document"
+".plg"="Notepad++.Document"
+".ps1xml"="Notepad++.Document"
+".psh"="Notepad++.Document"
+".pshader"="Notepad++.Document"
+".pssc"="Notepad++.Document"
+".rc"="Notepad++.Document"
+".rc2"="Notepad++.Document"
+".rct"="Notepad++.Document"
+".res"="Notepad++.Document"
+".rgs"="Notepad++.Document"
+".s"="Notepad++.Document"
+".sed"="Notepad++.Document"
+".shtml"="Notepad++.Document"
+".sql"="Notepad++.Document"
+".srf"="Notepad++.Document"
+".text"="Notepad++.Document"
+".tlh"="Notepad++.Document"
+".tli"="Notepad++.Document"
+".tsv"="Notepad++.Document"
+".tt"="Notepad++.Document"
+".txt"="Notepad++.Document"
+".vb"="Notepad++.Document"
+".vsh"="Notepad++.Document"
+".vshader"="Notepad++.Document"
+".vstemplate"="Notepad++.Document"
+".x"="Notepad++.Document"
+".xml"="Notepad++.Document"
+".xsl"="Notepad++.Document"
