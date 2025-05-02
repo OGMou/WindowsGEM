@@ -4,4 +4,4 @@
 - **Alternativa, uso del "PATH"**
 ###### La solucion, si verdaderamente quieres usar el PATH, es usar un intermediario como `cmd` o `powershell` para abrir el programa en concreto, entonces el comando seria `@="cmd.exe /c start \"\" \"NombrePrograma.exe\" \"%1\""` o respectivamente `@="\"powershell.exe\" -NoProfile -Command \"Start-Process 'NombrePrograma.exe' -ArgumentList \\\"%1\\\"\""` aunque usando `powershell` puedes tener problemas a la hora de crear un comando mas complejo por culpa del `escapado` de las `"` o las `\`.
 ---
-Actualizado a 02/05/2025
+###### Actualizado a 02/05/2025
