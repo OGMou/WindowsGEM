@@ -26,3 +26,5 @@
 - **Reemplaza ARCHIVO.rc por el nombre que le pusiste a tu archivo .rc**
 - **Reemplaza ARCHIVO.dll por el nombre que quieras para tu dll. Ejemplo: MisIconosVS_x64.dll.**
 - **Reemplaza ARCHIVO.res por el nombre del archivo .res que se creo durante el segundo comando.**
+---
+###### Actualizado a 02/05/2025
