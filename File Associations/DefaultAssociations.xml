@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+
+  <Association Identifier=".3fr" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".3g2" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".3gp" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".3gp2" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".3gpp" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".aac" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".ac3" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".adt" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".adts" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".aif" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".aifc" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".aiff" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".ari" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".arw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".asf" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".asx" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".au" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".avci" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".avcs" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".avi" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".avif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".avifs" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".bay" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".bmp" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".cap" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".cr2" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".cr3" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".crw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dcr" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dcs" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dds" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dib" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dng" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".drf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".dtcp-ip" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".dvr-ms" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".ec3" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".eip" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".emf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".erf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".fff" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".flac" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".gif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".heic" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".heics" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".heif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".heifs" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".hif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".ico" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".iiq" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".ivf" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".jfif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".jpe" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".jpeg" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".jpg" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".jxl" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".jxr" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".k25" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".kdc" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".lpcm" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".m1v" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".m2t" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".m2ts" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".m2v" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".m3u" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".m4a" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".m4b" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".m4p" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".m4v" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mef" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".mid" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".midi" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".mka" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".mkv" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mod" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mos" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".mov" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mp2" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".mp2v" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mp3" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".mp4" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mp4v" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mpa" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mpe" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mpeg" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mpg" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mpv2" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".mrw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".mts" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".nef" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".nrw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".oga" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".ogg" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".ogm" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".ogv" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".ogx" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".opus" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".orf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".ori" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".pef" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".png" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".ptx" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".pxn" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".raf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".raw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".rle" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".rmi" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".rw2" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".rwl" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".snd" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".sr2" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".srf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".srw" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".tif" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".tiff" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".tod" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".ts" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".tts" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".uvu" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".vob" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".wav" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".wax" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".wdp" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".weba" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".webm" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".webp" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".wm" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".wma" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".wmf" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+  <Association Identifier=".wmv" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".wmx" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".wpl" ProgId="FFplay.AudioFile" ApplicationName="FFplay (Audio)" />
+  <Association Identifier=".wvx" ProgId="FFplay.VideoFile" ApplicationName="FFplay (Video)" />
+  <Association Identifier=".x3f" ProgId="FFplay.ImageFile" ApplicationName="FFplay (Image)" />
+
+  <Association Identifier=".docm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".docx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".dotm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".dotx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".ods" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".odt" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".rtf" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xlsb" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xlsm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xlsx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xltm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xltx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".asm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".asmx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".aspx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".c" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cc" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cdxml" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cod" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cpp" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cppm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cs" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".csh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".css" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".csv" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".cxx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".datasource" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".def" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".diz" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".dsh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".dshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".filters" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".fx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".gitattributes" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".gitignore" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".gitmodules" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".gsh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".gshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".h" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hlsl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hlsli" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hpp" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hsh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hta" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".htm" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".html" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".hxx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".i" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".idl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".inc" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".ini" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".inl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".ipp" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".ixx" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".java" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".lst" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".mak" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".map" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".mk" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".natvis" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".nvr" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".odh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".odl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".php3" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".pl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".plg" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".ps1xml" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".psh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".pshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".pssc" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".rc" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".rc2" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".rct" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".res" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".rgs" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".s" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".sed" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".shtml" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".sql" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".srf" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".text" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".tlh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".tli" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".tsv" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".tt" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".txt" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".vb" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".vsh" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".vshader" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".vstemplate" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".x" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xml" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+  <Association Identifier=".xsl" ProgId="Notepad++.Document" ApplicationName="Notepad++" />
+
+</DefaultAssociations>
