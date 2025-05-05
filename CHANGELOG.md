@@ -3,6 +3,10 @@
 ### Imagen Base
 * **`install.wim 1. Windows 11 Enterprise LTSC | Windows 11 Enterprise LTSC 2024.`**
 
+### Ediciones Eliminadas
+* **`install.wim 2. Windows 11 IoT Enterprise LTSC | Windows 11 IoT Enterprise LTSC 2024`**
+* **`install.wim 3. Windows 11 IoT Enterprise Subscription LTSC | Windows 11 IoT Enterprise Subscription LTSC 2024`**
+
 ### Deshabilitado - Características
 1. **Math Recognizer**
 2. **Microsoft Edge Webview2 (Platform)**
@@ -27,7 +31,3 @@
 17. **Widgets Platform Runtime (InboxApp)**
 18. **Windows Copilot (InboxApp)**
 19. **Windows Copilot (Windows Feature Experience Pack)**
-
-### Ediciones Eliminadas
-* **`install.wim 2. Windows 11 IoT Enterprise LTSC | Windows 11 IoT Enterprise LTSC 2024`**
-* **`install.wim 3. Windows 11 IoT Enterprise Subscription LTSC | Windows 11 IoT Enterprise Subscription LTSC 2024`**
