@@ -20,17 +20,17 @@
 ### En donde 🫵🏼TU DECIDES.
 ---
 ### Beneficios ✨ 
-* 📄 **Mayor Compatibilidad Nativa:** Soporte integrado para más formatos multimedia, por ejemplo: (`.mov`), (`.mkv`), (`.flac`) y documentos sin instalar software adicional.
-* 🚀 **Mejor Rendimiento:** Optimización del sistema al eliminar o desactivar componentes innecesarios o que consuman demasiados recursos para la tarea exigida.
-* 🔒 **Privacidad Reforzada:** Reducción significativa de la recopilación de datos por parte de Microsoft mediante políticas, desactivación de servicios y la eliminación total o parcial de la telemetría.
-* ✨ **Identidad Propia:** Una experiencia de Windows familiar pero con optimizaciones y toques únicos de personalización aplicados de forma nativa.
+* 📄 **Mayor Compatibilidad:** Soporte integrado para más formatos multimedia y documentos.
+* 🚀 **Mejor Rendimiento:** Optimización del sistema.
+* 🔒 **Privacidad Reforzada:** Reducción significativa de la recopilación de datos por parte de Microsoft.
+* ✨ **Identidad Propia:** Una experiencia de Windows familiar pero con optimizaciones y toques únicos de personalización aplicados de manera **NATIVA**.
 ---
 ### ¿Cómo lo Hacemos? ✏️
-* **Método de Edición:** Todas las modificaciones se realizan **pre-instalación**. No se instalan programas de personalización externos.
-* **Reemplazo de Software:** Por ejemplo aplicaciones UWP básicas (Fotos, Música, Visor 3D, etc.) reemplazadas por alternativas **open source** más ligeras y versátiles.
-* **Optimización del Rendimiento:** Eliminación de componentes seleccionados como Edge, DevHome, Copilot, Widgets, etc... Y aplicaciones UWP redundantes o innecesarias.
-* **Refuerzo de la Privacidad:** Aplicación de políticas de grupo y ajustes del registro para minimizar la telemetría y mejorar la privacidad por defecto.
-* **Toques de Personalidad Nativos:** Integración de ajustes finos del **registro** para mejorar la usabilidad y activación de opciones y características útiles por defecto.
+* **ELIMINANDO** componentes seleccionados como Edge, DevHome, Copilot, Widgets, etc... Y aplicaciones UWP redundantes o innecesarias
+* **REEMPLAZANDO** los componentes eliminados por alternativas **OPEN SOURCE** más ligeras y versátiles.
+* **INTEGRANDO** ajustes finos del registro para mejorar la usabilidad y activación de opciones y características útiles por defecto.
+* **APLICANDO** políticas de grupo para minimizar la telemetría y mejorar la privacidad por defecto.
+* **REALIZANDO** todas las modificaciones **PRE-instalación**.
 ---
 #### 🔎 Consulta la sección [Releases](https://github.com/OGMou/WindowsGEM/releases) para ver los cambios detallados en cada versión y encontrar los `xml` 💾
 ---
