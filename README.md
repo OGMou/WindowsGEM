@@ -5,7 +5,7 @@
 ##### Haz SIEMPRE una copia de seguridad de tus datos importantes antes de instalar.
 ##### Esta ISO es una modificación NO OFICIAL y NO está afiliada, soportada ni aprobada por Microsoft.
 ##### La eliminación de componentes puede causar problemas con futuras actualizaciones de Windows o con cierto software o hardware.
-##### Esta ISO ELIMINA, REEMPLAZA o DESACTIVA componentes de seguridad integrados, como **Microsoft Security (Defender)**. Eres **tú** el responsable de la seguridad de tu sistema y de instalar o configurar software de protección si lo crees necesario.
+##### Esta ISO PUEDE ELIMINAR, REEMPLAZAR o DESACTIVAR componentes de seguridad integrados, como **Microsoft Security (Defender)**. Eres **tú** el responsable de la seguridad de tu sistema y de instalar o configurar software de protección si lo crees necesario.
 ##### Necesitarás una licencia válida y legal de Windows para activar y usar este sistema operativo. Esta modificación no proporciona ni piratea licencias.
 ---
 ### Versión Base
@@ -28,7 +28,7 @@
 ### ¿Cómo lo Hacemos? ✏️
 * **Método de Edición:** Todas las modificaciones se realizan **pre-instalación**. No se instalan programas de personalización externos.
 * **Reemplazo de Software:** Por ejemplo aplicaciones UWP básicas (Fotos, Música, Visor 3D, etc.) reemplazadas por alternativas **open source** más ligeras y versátiles.
-* **Optimización del Rendimiento:** Eliminación de componentes seleccionados como Cortana, Widgets, Microsoft Security (Defender), etc... Y aplicaciones UWP redundantes o innecesarias.
+* **Optimización del Rendimiento:** Eliminación de componentes seleccionados como Edge, DevHome, Copilot, Widgets, etc... Y aplicaciones UWP redundantes o innecesarias.
 * **Refuerzo de la Privacidad:** Aplicación de políticas de grupo y ajustes del registro para minimizar la telemetría y mejorar la privacidad por defecto.
 * **Toques de Personalidad Nativos:** Integración de ajustes finos del **registro** para mejorar la usabilidad y activación de opciones y características útiles por defecto.
 ---
@@ -40,4 +40,4 @@
 3.  Arranca desde el USB e instala Windows.
 ---
 ### Contribuciones y Feedback ❤️
-* Si tienes sugerencias o encuentras bugs, abre un 'Issue' aquí, en GitHub.
+* Si tienes sugerencias o encuentras bugs, abre un [Issue](https://github.com/OGMou/WindowsGEM/issues/new) aquí, en GitHub.
